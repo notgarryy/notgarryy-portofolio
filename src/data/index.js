@@ -27,7 +27,7 @@ export const projects = [
     tags: ["FastAPI", "Docker", "TensorFlow", "Railway", "MLflow"],
     metric: "98% classification accuracy",
     github: "https://github.com/notgarryy/fall-detection-api",
-    demo: "#"
+    demo: "https://fall-detection-api-production.up.railway.app/predict"
   },
   {
     icon: "🎯",

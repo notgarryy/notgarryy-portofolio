@@ -25,17 +25,9 @@ export default function About() {
             engineering — from designing novel deep learning architectures to
             deploying production ML APIs.
           </p>
-          <p>
-            I'm currently seeking{" "}
-            <strong>ML Engineer or Deep Learning Researcher</strong> roles in
-            Indonesia and remote positions where I can drive real-world impact
-            through applied AI.
-          </p>
         </div>
         <div className="about-stats">
           {[
-            { number: "3.98", label: "GPA / 4.00" },
-            { number: "4", label: "Publications" },
             { number: "3.98", label: "GPA / 4.00" },
             { number: "4", label: "Publications" }
           ].map((stat) => (
