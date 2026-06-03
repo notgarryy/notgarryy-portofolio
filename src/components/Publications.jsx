@@ -1,5 +1,5 @@
-import { publications } from "../data/index.js"
-import "../styles/global.css"
+import { publications } from "../data/index.js";
+import "../styles/global.css";
 
 export default function Publications() {
   return (
@@ -26,9 +26,14 @@ export default function Publications() {
                 View Paper →
               </a>
             ) : (
-              <span className="pub-link" style={{ color: "var(--muted)" }}>
-                In Revision
-              </span>
+              <a
+                href="/LoA_GarryNelson_ASSET.pdf"
+                className="pub-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View LoA →
+              </a>
             )}
           </div>
         ))}

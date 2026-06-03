@@ -11,7 +11,7 @@ export default function Contact() {
           </h2>
           <div className="contact-text">
             <p>
-              !!!
+              Open to ML Engineer roles, research collaborations, and freelance projects. Feel free to reach out!
             </p>
           </div>
         </div>

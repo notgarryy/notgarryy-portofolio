@@ -54,13 +54,13 @@ export default function App() {
       <hr className="full-divider" />
       <About />
       <hr className="full-divider" />
+      <Experience />
+      <hr className="full-divider" />
       <Publications />
       <hr className="full-divider" />
       <Projects />
       <hr className="full-divider" />
       <Skills />
-      <hr className="full-divider" />
-      <Experience />
       <hr className="full-divider" />
       <Contact />
       <Footer />

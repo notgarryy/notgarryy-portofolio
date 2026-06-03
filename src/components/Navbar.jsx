@@ -5,7 +5,7 @@ export default function Navbar({ scrolled }) {
     <nav className={scrolled ? "scrolled" : ""}>
       <a href="#" className="nav-logo">Garry Nelson</a>
       <ul className="nav-links">
-        {["About", "Publications", "Projects", "Skills", "Experience", "Contact"].map(item => (
+        {["About", "Experience", "Publications", "Projects", "Skills", "Contact"].map(item => (
           <li key={item}>
             <a href={`#${item.toLowerCase()}`}>{item}</a>
           </li>
