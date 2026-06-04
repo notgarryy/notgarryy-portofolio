@@ -46,7 +46,9 @@ export const projects = [
       "Sliding window inference pipeline for continuous real-time monitoring",
       "Published in IEEE Access — Q1, DOI: 10.1109/ACCESS.2026.3676850",
     ],
-    images: [],
+    images: [
+      "/images/point_cloud.png"
+    ],
   },
   { // API
     name: "Fall Detection Inference API",
@@ -97,7 +99,30 @@ export const projects = [
       "Physical relay actuation for door lock control on authentication",
       "88.9% recognition accuracy across enrolled identities",
     ],
-    images: [],
+    images: [
+      "/images/cam_wiring.png",
+      "/images/cam_hardware.png"
+    ],
+  },
+  { // Sumo Robot
+    name: "Bluetooth Sumo Battle Robot",
+    desc: "ESP32-powered sumo battle robot with Bluetooth remote control, dual PWM motor drive, ultrasonic proximity detection, and a servo-actuated wedge. Built as a team hardware project with custom chassis and CAD-designed mechanical components.",
+    tags: ["Robotics", "3D Design - Fusion", "C++", "ESP32", "Bluetooth", "Sensors and Actuators"],
+    metric: "Real-time Bluetooth control",
+    github: null,
+    demo: "https://a360.co/3Fibg8L",
+    details: "A sumo battle robot built as a team of 4 for a college hardware project. The ESP32 microcontroller handles Bluetooth Serial communication, dual H-bridge motor control via PWM (5kHz, 8-bit resolution), and real-time ultrasonic proximity sensing. When an opponent enters within 20cm, the servo-actuated front wedge automatically deploys — no manual input needed. Remote control commands (F/B/L/R/S) are received over Bluetooth for full directional drive. The chassis was custom-built and the mechanical design was prototyped in CAD before physical assembly.",
+    highlights: [
+      "ESP32 Bluetooth Serial for wireless F/B/L/R/S directional control",
+      "Dual DC motors with independent PWM channels for speed and differential steering",
+      "HC-SR04 ultrasonic sensor triggers auto wedge deployment under 20cm proximity",
+      "Dual servo-actuated front wedge with cooldown timer to prevent rapid re-trigger",
+      "CAD-designed chassis prototyped before physical build — real hardware shipped",
+    ],
+    images: [
+      "/images/sumo_bot.png",
+      "/images/sumo_bot.jpeg"
+    ],
   },
 ];
  

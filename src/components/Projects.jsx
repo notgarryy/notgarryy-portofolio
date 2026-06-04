@@ -5,14 +5,12 @@ import "../styles/global.css"
 export default function Projects() {
   const [selected, setSelected] = useState(null)
 
-  // Close on Escape key
   useEffect(() => {
     const onKey = (e) => { if (e.key === "Escape") setSelected(null) }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
   }, [])
 
-  // Lock body scroll when modal is open
   useEffect(() => {
     document.body.style.overflow = selected ? "hidden" : ""
     return () => { document.body.style.overflow = "" }

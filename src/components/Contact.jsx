@@ -20,7 +20,7 @@ export default function Contact() {
             {
               label: "Email",
               value: "garrynelson456@gmail.com",
-              href: "mailto:garrynelson456@gmail.com",
+              href: null,
             },
             {
               label: "LinkedIn",
